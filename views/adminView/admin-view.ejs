@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>SB Admin 2 - Dashboard</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+          <!-- Topbar Search -->
+          <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+            <div class="input-group">
+              <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                  <i class="fas fa-search fa-sm"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+            <li class="nav-item dropdown no-arrow d-sm-none">
+              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-search fa-fw"></i>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-bell fa-fw"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">3+</span>
+              </a>
+              <!-- Dropdown - Alerts -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header">
+                  Alerts Center
+                </h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-primary">
+                      <i class="fas fa-file-alt text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">December 12, 2019</div>
+                    <span class="font-weight-bold">A new monthly report is ready to download!</span>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-success">
+                      <i class="fas fa-donate text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">December 7, 2019</div>
+                    $290.29 has been deposited into your account!
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-warning">
+                      <i class="fas fa-exclamation-triangle text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">December 2, 2019</div>
+                    Spending Alert: We've noticed unusually high spending for your account.
+                  </div>
+                </a>
+                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+              </div>
+            </li>
+
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-envelope fa-fw"></i>
+                <!-- Counter - Messages -->
+                <span class="badge badge-danger badge-counter">7</span>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
+                <h6 class="dropdown-header">
+                  Message Center
+                </h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="https://source.unsplash.com/fn_BT9fwg_E/60x60" alt="">
+                    <div class="status-indicator bg-success"></div>
+                  </div>
+                  <div class="font-weight-bold">
+                    <div class="text-truncate">Hi there! I am wondering if you can help me with a problem I've been having.</div>
+                    <div class="small text-gray-500">Emily Fowler · 58m</div>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="https://source.unsplash.com/AU4VPcFN4LE/60x60" alt="">
+                    <div class="status-indicator"></div>
+                  </div>
+                  <div>
+                    <div class="text-truncate">I have the photos that you ordered last month, how would you like them sent to you?</div>
+                    <div class="small text-gray-500">Jae Chun · 1d</div>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="https://source.unsplash.com/CS2uCrpNzJY/60x60" alt="">
+                    <div class="status-indicator bg-warning"></div>
+                  </div>
+                  <div>
+                    <div class="text-truncate">Last month's report looks great, I am very happy with the progress so far, keep up the good work!</div>
+                    <div class="small text-gray-500">Morgan Alvarez · 2d</div>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60" alt="">
+                    <div class="status-indicator bg-success"></div>
+                  </div>
+                  <div>
+                    <div class="text-truncate">Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</div>
+                    <div class="small text-gray-500">Chicken the Dog · 2w</div>
+                  </div>
+                </a>
+                <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+              </div>
+            </li>
+
+            <div class="topbar-divider d-none d-sm-block"></div>
+
+            <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
+                <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
+              </a>
+              <!-- Dropdown - User Information -->
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Profile
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Settings
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Activity Log
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Logout
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- Page Heading -->
+          <div class="row justify-content-around mb-2">
+            <h1 class="h3 mb-0 col-2 text-gray-800">Dashboard</h1>
+            <a href="#" class="btn btn-primary shadow-sm col-lg-2"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+          </div>
+          <div class="row justify-content-center mb-4">
+            <a href="#" class="btn btn-primary shadow-sm col-lg-2 mr-1 mb-1">add <i class="fas fa-border-style fa-sm text-white-50"></i></a>           
+            <a href="#" class="btn btn-primary shadow-sm col-lg-2 mr-1 mb-1">add <i class="fas fa-chart-pie fa-sm text-white-50"></i></a>
+            <a href="#" class="btn btn-primary shadow-sm col-lg-2 mr-1 mb-1">add <i class="fas fa-chart-bar fa-sm text-white-50"></i></a>
+            <a href="#" class="btn btn-primary shadow-sm col-lg-2 mr-1 mb-1">add <i class="fas fa-table fa-sm text-white-50"></i></a>
+            <a href="#" class="btn btn-primary shadow-sm col-lg-2 mr-1 mb-1">add <i class="fas fa-chart-line fa-sm text-white-50"></i></a>
+           
+          </div>
+
+          <!-- Content Row -->
+          <div class="row mb-4 justify-content-center" >
+            
+            <!-- Earnings (Monthly) Card Example -->
+            <div class="col-xl-3 col-md-6 mb-2 rotate">
+              <div class="card book-card text-center my-1 mx-auto border-left-primary shadow py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-lg font-weight-bold text-primary text-uppercase my-auto">Earnings (Monthly)</div>
+                      <div class="h5 my-auto font-weight-bold text-gray-800">$40,000</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="back">
+                    <form action="/admin/add-card" method="post" id="theOne">
+                        <div class="row justify-content-around">
+                          <label for="card" class="col-3 col-form-label">Title</label>
+                          <div class="col-8">
+                            <input type="text" class="form-control-plaintext" id="card" placeholder="title" name="title">
+                          </div>
+                          <label for="card" class="col-3 col-form-label">value</label>
+                          <div class="col-8">
+                            
+                              <input type="number" class="form-control-plaintext" id="card" placeholder="value" name="value">
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-primary py-0" type="submit">Save</button>
+                      </form>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Content Row -->
+
+          <div class="row justify-content-center">
+
+            <!-- Area Chart -->
+            <div class="col-xl-10 col-lg-10">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      <div class="dropdown-header">Dropdown Header:</div>
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class="chart-area">
+                    <canvas id="myAreaChart"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+              </div>
+          <div class="row justify-content-center">
+           <!-- Pie Chart 1-->
+          <div class="col-xl-5 col-lg-5">
+             <div class="card shadow mb-4">
+               <!-- Card Header - Dropdown -->
+               <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      <div class="dropdown-header">Dropdown Header:</div>
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+          <!-- Card 1 Body -->
+          <div class="card-body">
+            <div class="chart-pie pt-4 pb-2">
+              <canvas id="myPieChart"></canvas>
+            </div>
+            <div class="mt-4 text-center small">
+              <span class="mr-2">
+                <i class="fas fa-circle text-primary"></i> Stocks
+              </span>
+              <span class="mr-2">
+                <i class="fas fa-circle text-success"></i> Bonds
+              </span>
+              <span class="mr-2">
+                <i class="fas fa-circle text-info"></i> Real-estate
+              </span>
+              <div class="table-responsive-sm overflow">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">Real estate</th>
+                      <th scope="col">Stock</th>
+                      <th scope="col">Real estate</th>
+                      <th scope="col">bonds</th>
+                      <th scope="col">Other</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row"></th>
+                      <td>stoks</td>
+                      <td>Real estate</td>
+                      <td>Bonds</td>
+                      <td>Other</td>
+                      <td><a href="#" class="btn btn-outline-warning">Edit</a></td>
+                    </tr>                         
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+           <!-- Pie Chart 2-->
+         <div class="col-xl-5 col-lg-5">
+          <div class="card shadow mb-4">
+            <!-- Card Header - Dropdown -->
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary">other Sources</h6>
+                <div class="dropdown no-arrow">
+                  <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                    <div class="dropdown-header">Dropdown Header:</div>
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </div>
+          <!-- Card 2 Body -->
+          <div class="card-body">
+            <div class="chart-pie pt-4 pb-2">
+              <canvas id="myPieChart1"></canvas>
+            </div>
+            <div class="mt-4 text-center small">
+              <span class="mr-2">
+                <i class="fas fa-circle text-primary"></i> Stocks
+              </span>
+              <span class="mr-2">
+                <i class="fas fa-circle text-success"></i> Bonds
+              </span>
+              <span class="mr-2">
+                <i class="fas fa-circle text-info"></i> Real-estate
+              </span>
+              <div class="table-responsive-sm overflow">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">Real estate</th>
+                      <th scope="col">Stock</th>
+                      <th scope="col">Real estate</th>
+                      <th scope="col">bonds</th>
+                      <th scope="col">Other</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row"></th>
+                      <td>stoks</td>
+                      <td>Real estate</td>
+                      <td>Bonds</td>
+                      <td>Other</td>
+                      <td><a href="#" class="btn btn-outline-warning">Edit</a></td>
+                    </tr>                         
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Bar Chart</h6>
+                </div>
+                <div class="card-body">
+                  <div class="chart-bar">
+                    <canvas id="myBarChart"></canvas>
+                  </div>
+                  <div class="table-responsive-sm overflow">
+                      <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col">Real estate</th>
+                            <th scope="col">Stock</th>
+                            <th scope="col">Real estate</th>
+                            <th scope="col">bonds</th>
+                            <th scope="col">Other</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row"></th>
+                            <td>stoks</td>
+                            <td>Real estate</td>
+                            <td>Bonds</td>
+                            <td>Other</td>
+                            <td><a href="#" class="btn btn-outline-warning">Edit</a></td>
+                          </tr>                         
+                        </tbody>
+                      </table>
+                    </div>
+              </div>
+              </div>
+        </div>
+        <div class="col-lg-5">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Bar Chart the 2nd</h6>
+                </div>
+                <div class="card-body">
+                  <div class="chart-bar">
+                    <canvas id="myBarChart1"></canvas>
+                  </div>
+                  <div class="table-responsive-sm overflow">
+                      <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col">Real estate</th>
+                            <th scope="col">Stock</th>
+                            <th scope="col">Real estate</th>
+                            <th scope="col">bonds</th>
+                            <th scope="col">Other</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row"></th>
+                            <td>stoks</td>
+                            <td>Real estate</td>
+                            <td>Bonds</td>
+                            <td>Other</td>
+                            <td><a href="#" class="btn btn-outline-warning">Edit</a></td>
+                          </tr>                         
+                        </tbody>
+                      </table>
+                    </div>
+              </div>
+        </div>
+        </div>
+        </div>
+          <!-- Content Row -->
+          <div class="row justify-content-center">
+
+            <div class="col-lg-12 mb-4">
+
+              <!-- Investments -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3 row justify-content-around mx-0">
+                  <h6 class="m-0 font-weight-bold text-primary col-4 px-2 py-2">Real estate</h6>
+                  <a href="#" class="align-text-left btn btn-outline-primary col-4">Add Asset</a>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive-sm overflow">
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">Real estate</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Cur</th>
+                        <th scope="col">investment</th>
+                        <th scope="col">Trans. cost</th>
+                        <th scope="col">Equity val</th>
+                        <th scope="col">Asset val</th>
+                        <th scope="col">Mortgage</th>
+                        <th scope="col">cash</th>
+                        <th scope="col">Treshold</th>
+                        <th scope="col">IRR</th>
+                        <th scope="col">P&L</th>
+                        <th scope="col">Addl fees</th>
+                        <th scope="col">net proceeds</th>
+                        <th scope="col">taxes</th>
+                        <th scope="col">holding</th>
+                        <th scope="col">Net IRR</th>
+                        <th scope="col">profit</th>
+                        <th scope="col">land Breakeven</th>
+                        <th scope="col">commitment</th>
+                        <th scope="col">outstanding</th>
+                        <th scope="col">closed</th>
+                        <th scope="col">additoinal info</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">name 1</th>
+                        <td>today</td>
+                        <td>EUR</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>15%</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>flase</td>
+                        <td><a href="#" class="btn btn-outline-warning">Edit</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">name 1.5</th>
+                        <td>today</td>
+                        <td>EUR</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>15%</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>flase</td>
+                        <td><a href="#" class="btn btn-outline-warning">Edit</a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">name 2</th>
+                        <td>today</td>
+                        <td>EUR</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>15%</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>4,000,000</td>
+                        <td>flase</td>
+                        <td><a href="#" class="btn btn-outline-warning">Edit</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!--second table-->
+        <div class="row justify-content-center">
+
+          <div class="col-lg-12 mb-4">
+
+            <!-- Investments -->
+            <div class="card shadow mb-4">
+              <div class="card-header py-3 row justify-content-around mx-0">
+                <h6 class="m-0 font-weight-bold text-primary col-4 px-2 py-2">Other</h6>
+                <a href="#" class="align-text-left btn btn-outline-primary col-4">Add Asset</a>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive-sm overflow">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">Type</th>
+                      <th scope="col">name</th>
+                      <th scope="col">Date</th>
+                      <th scope="col">Cur</th>
+                      <th scope="col">investment</th>
+                      <th scope="col">Trans. cost</th>
+                      <th scope="col">Equity val</th>
+                      <th scope="col">Asset val</th>
+                      <th scope="col">Mortgage</th>
+                      <th scope="col">cash</th>
+                      <th scope="col">Treshold</th>
+                      <th scope="col">IRR</th>
+                      <th scope="col">P&L</th>
+                      <th scope="col">Addl fees</th>
+                      <th scope="col">net proceeds</th>
+                      <th scope="col">taxes</th>
+                      <th scope="col">holding</th>
+                      <th scope="col">Net IRR</th>
+                      <th scope="col">profit</th>
+                      <th scope="col">land Breakeven</th>
+                      <th scope="col">commitment</th>
+                      <th scope="col">outstanding</th>
+                      <th scope="col">closed</th>
+                      <th scope="col">additoinal info</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">type</th>
+                      <td>name</td>
+                      <td>today</td>
+                      <td>EUR</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>15%</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>flase</td>
+                      <td><button class="btn btn-secondary">more info</button></td>
+                      <td><a href="#" class="btn btn-outline-warning">Edit</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">type</th>
+                      <td>name</td>
+                      <td>today</td>
+                      <td>EUR</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>15%</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>flase</td>
+                      <td><button class="btn btn-primary">more info</button></td>
+                      <td><a href="#" class="btn btn-outline-warning">Edit</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">type</th>
+                      <td>name</td>
+                      <td>today</td>
+                      <td>EUR</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>15%</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>4,000,000</td>
+                      <td>flase</td>
+                      <td><button class="btn btn-primary">more info</button></td>
+                      <td><a href="#" class="btn btn-outline-warning">Edit</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+        <!-- /.container-fluid -->
+
+
+
+      </div>
+      <!-- End of Main Content -->
+
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; Your Website 2019</span>
+          </div>
+        </div>
+      </footer>
+      <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="vendor/chart.js/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/chart-area-demo.js"></script>
+  <script src="js/demo/chart-pie-demo.js"></script>
+  <script src="js/demo/chart-bar-demo.js"></script>
+
+</body>
+
+</html>
